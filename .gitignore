@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+
+# Dataset (too large for GitHub — users download from Kaggle)
+data/
+
+# Model checkpoints (too large for GitHub)
+outputs/models/*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
