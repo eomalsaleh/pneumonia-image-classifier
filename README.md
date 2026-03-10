@@ -6,8 +6,6 @@
 
 ## Problem Statement
 
-Pneumonia causes over 2 million deaths annually worldwide and is especially dangerous for children and the elderly. Automated chest X-ray analysis using deep learning can help accelerate diagnosis by providing rapid screening assistance to radiologists.
-
 This project builds a deep learning pipeline that classifies chest X-ray images as **Normal** or **Pneumonia** using transfer learning with EfficientNet-B0, evaluates performance with clinical-grade metrics, and provides Grad-CAM heatmap visualizations to show *where* the model is focusing its attention.
 
 > **Disclaimer:** This model is for educational purposes only and is NOT intended for clinical diagnosis.
